@@ -52,7 +52,7 @@ while True:
         try:
             if kmouse[0]: grid[ty][tx] = 1
             if kmouse[2]: grid[ty][tx] = 0
-        except:...
+        except: pass
         if jkeys[pygame.K_SPACE]: print(grid)
 
 
