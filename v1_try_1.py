@@ -7,7 +7,7 @@ FPS = 60
 clock = pygame.time.Clock()
 
 grid = [[0 for _ in range(21)] for _ in range(21)]
-with open('v1_base_grid.txt') as f: grid = eval(f.read())
+with open(r'base grids/v1_base_grid.txt') as f: grid = eval(f.read())
 tile_size = 32
 
 link = ''
